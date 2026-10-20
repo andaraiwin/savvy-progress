@@ -1,0 +1,6 @@
+{
+  "name": "savvy-progress",
+  "owner": { "name": "andaraiwin" },
+  "description": "savvy-progress: a live band and dashboard of every Claude Code helper at work, each with an animated pixel critter.",
+  "plugins": [{ "name": "savvy-progress", "source": "./" }]
+}

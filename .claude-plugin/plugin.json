@@ -1,0 +1,21 @@
+{
+  "name": "savvy-progress",
+  "version": "0.2.1",
+  "description": "Live view of every helper at work: the main loop's model and phase, subagents, teammates, workflow runs and their agents, background shells, monitors and MCP servers, as a band above the prompt and a /savvy dashboard of agent cards, each with an animated pixel critter, its effort, model, context, estimated cost and time.",
+  "author": { "name": "andaraiwin" },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "autoOpenPane": {
+      "type": "boolean",
+      "title": "Auto-open the dashboard",
+      "description": "Open the savvy-progress pane by itself when a workflow or two helpers start (in a fullscreen terminal or the desktop app, once a session).",
+      "default": true
+    },
+    "liveModelPhase": {
+      "type": "boolean",
+      "title": "Live model phase",
+      "description": "Follow each model request as it streams to show thinking, writing and tool phases, the model and token counts per agent.",
+      "default": true
+    }
+  }
+}
